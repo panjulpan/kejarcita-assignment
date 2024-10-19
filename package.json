@@ -10,10 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@react-native-picker/picker": "^2.8.1",
     "axios": "^1.7.7",
     "react": "18.2.0",
-    "react-native": "0.71.14"
+    "react-native": "0.71.14",
+    "react-native-element-dropdown": "^2.12.2",
+    "react-native-vector-icons": "^10.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -23,6 +24,7 @@
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^29.2.1",
     "@types/react": "^18.0.24",
+    "@types/react-native-vector-icons": "^6.4.18",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
     "eslint": "^8.19.0",

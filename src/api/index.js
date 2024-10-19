@@ -15,7 +15,6 @@ Client.interceptors.request.use(
 
 Client.interceptors.response.use(
   async res => {
-    console.log('res: ', res);
     return res;
   },
   async error => {
